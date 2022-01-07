@@ -11,6 +11,12 @@ body, .container{
 	height: 50%;
 }
 
+#container-lista div{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
+}
+
 
 /*configurações do card*/
 
@@ -38,8 +44,18 @@ body, .container{
 	color: white;
 }
 
+table{
+	overflow-x: hidden;
+}
+
+.c-comanda{
+	margin-top: 0px;
+
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
 
+}
 
 
 /*-------------------------------*/
