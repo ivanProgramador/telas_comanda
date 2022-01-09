@@ -91,6 +91,8 @@ body, .container{
 
 	background-color: #f14e3f;
 	color: white;
+	max-height: 40%;
+	max-width: 100%;
 
 }
 
@@ -108,6 +110,8 @@ body, .container{
     
     background-color: #3d819f;
 	color: white;
+	max-height: 40%;
+	max-width: 100%;
 
 
 }  
@@ -288,6 +292,7 @@ p{
     margin-left: 2%;
     align-self: center;
     overflow-x: auto;
+    position: fixed;
 
 
 
