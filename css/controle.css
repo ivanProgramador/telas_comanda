@@ -178,35 +178,6 @@ body, .container{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body{
 
 	background-color: #dddddd;
@@ -352,10 +323,67 @@ html{
 	top: -15%;
 	cursor: pointer;
 	text-decoration: none;
-
-
 	
 }
+
+
+
+.titulo-comanda-modal{
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: -5%;
+
+}
+
+
+.titulo-comanda-modal div{
+
+	margin: 10%;
+	
+}
+
+#modal-cabecalho{
+
+	margin-bottom: 6%;
+	margin-top: 1%; 
+}
+#modal-item-linha{
+
+	margin-bottom: 2%;
+
+
+}
+
+#container-lista-modal{
+
+	overflow-x: auto;
+	overflow-y: auto;
+
+
+}
+
+#container-lista-modal div{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
+
+}
+
+
+#cabecalho-tem-pedido-modal{
+
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+
+
+
+
+
 
 
 
