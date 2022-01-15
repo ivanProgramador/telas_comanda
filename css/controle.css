@@ -379,6 +379,42 @@ html{
 
 }
 
+#comandos-modal{
+
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	width: 100%;
+	height: 7px;
+	margin-top: 0px;
+}
+
+#botao-comando-modal-expedir{
+
+	
+	background-color:#379c3a;
+	border-color: #379c3a;
+	width: 100%;
+	height: 100%;
+	color: white;
+	
+
+
+}
+#botao-comando-modal-cancelar{
+
+	
+	background-color: #f14e3f;
+	border-color:  #f14e3f;
+	width: 100%;
+	height: 100%;
+	color: white;
+	
+
+
+
+}
+
+
 
 
 
